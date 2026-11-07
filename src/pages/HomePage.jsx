@@ -66,14 +66,14 @@ function HomePage() {
   const courses = [...new Set(students.map(s => s.course))]
 
   return (
-    <div className="min-h-screen bg-gray-50 p-4 md:p-8">
+    <div className="min-h-screen bg-blue-50 p-4 md:p-8">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-3xl font-bold mb-8 text-gray-800">Student Management System</h1>
+        <h1 className="text-3xl font-bold mb-8 text-blue-800">학생 관리 시스템</h1>
 
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="bg-white p-6 rounded border border-gray-200">
             <h2 className="text-xl font-bold mb-4 text-gray-700">
-              {editingId ? 'Edit Student' : 'Add New Student'}
+              {editingId ? '학생 정보 수정' : '새로운 학생 등록'}
             </h2>
             <StudentForm
               onSubmit={(student) => {
@@ -99,12 +99,13 @@ function HomePage() {
             />
             <div className="mt-4 text-sm text-gray-600">
               Found: <span className="font-bold">{filteredStudents.length}</span> student(s)
+              / 전체 <span className="font-bold">{students.length}</span>명
             </div>
           </div>
         </div>
 
         <div className="bg-white p-6 rounded border border-gray-200">
-          <h2 className="text-xl font-bold mb-4 text-gray-700">All Students</h2>
+          <h2 className="text-xl font-bold mb-4 text-gray-700">전체 학생 목록</h2>
           <StudentList
             students={filteredStudents}
             onEdit={(id) => setEditingId(id)}

@@ -68,7 +68,7 @@ function HomePage() {
   return (
     <div className="min-h-screen bg-blue-50 p-4 md:p-8">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-3xl font-bold mb-8 text-blue-800 mb-0">학생 관리 시스템</h1>
+        <h1 className="text-3xl font-bold text-blue-800 mb-0">학생 관리 시스템</h1>
         <p className="mb-8 text-blue-400">학생을 등록하고, 검색하고, 관리할 수 있는 페이지입니다.</p>
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           <div className="bg-white p-6 rounded border border-gray-400">

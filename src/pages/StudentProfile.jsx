@@ -12,22 +12,22 @@ function StudentProfile() {
     return stored ? JSON.parse(stored) : [
       {
         id: 1,
-        name: 'John Smith',
-        email: 'john@example.com',
+        name: '심지섭',
+        email: 'jisub@example.com',
         course: 'Computer Science',
-        level: 'Year 2'
+        level: 'Year 4'
       },
       {
         id: 2,
-        name: 'Sarah Johnson',
-        email: 'sarah@example.com',
+        name: '이서연',
+        email: 'seoyeon@example.com',
         course: 'Business',
         level: 'Year 1'
       },
       {
         id: 3,
-        name: 'Mike Brown',
-        email: 'mike@example.com',
+        name: '박민준',
+        email: 'minjun@example.com',
         course: 'Engineering',
         level: 'Year 3'
       }
@@ -44,7 +44,7 @@ function StudentProfile() {
             onClick={() => navigate('/')}
             className="mb-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
           >
-            ← Back to Home
+            ← 뒤로 가기
           </button>
           <div className="bg-white p-6 rounded border border-gray-200">
             <p className="text-gray-600">Student not found</p>
@@ -61,7 +61,7 @@ function StudentProfile() {
           onClick={() => navigate('/')}
           className="mb-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
         >
-          ← Back to Home
+          ← 뒤로 가기
         </button>
 
         <div className="bg-white p-8 rounded border border-gray-200">

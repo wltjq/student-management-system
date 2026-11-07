@@ -3,7 +3,7 @@ function SearchBar({ searchTerm, onSearchChange, filterCourse, onFilterChange, c
     <div className="space-y-3">
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1">
-          Search by Name
+          이름으로 검색
         </label>
         <input
           type="text"
@@ -16,7 +16,7 @@ function SearchBar({ searchTerm, onSearchChange, filterCourse, onFilterChange, c
 
       <div>
         <label className="block text-sm font-medium text-gray-700 mb-1">
-          Filter by Course
+          Course로 Filter
         </label>
         <select
           value={filterCourse}

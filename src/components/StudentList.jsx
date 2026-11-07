@@ -35,13 +35,13 @@ function StudentList({ students, onEdit, onDelete }) {
                   onClick={() => navigate(`/student/${student.id}`)}
                   className="px-3 py-1 bg-green-500 text-white text-sm rounded hover:bg-green-600 mr-2"
                 >
-                  View
+                  상세
                 </button>
                 <button
                   onClick={() => onEdit(student.id)}
                   className="px-3 py-1 bg-yellow-500 text-white text-sm rounded hover:bg-yellow-600 mr-2"
                 >
-                  Edit
+                  편집
                 </button>
                 <button
                   onClick={() => {
@@ -51,7 +51,7 @@ function StudentList({ students, onEdit, onDelete }) {
                   }}
                   className="px-3 py-1 bg-red-500 text-white text-sm rounded hover:bg-red-600"
                 >
-                  Delete
+                  삭제
                 </button>
               </td>
             </tr>

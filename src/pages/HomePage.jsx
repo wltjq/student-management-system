@@ -71,7 +71,7 @@ function HomePage() {
         <h1 className="text-3xl font-bold mb-8 text-blue-800">학생 관리 시스템</h1>
 
         <div className="grid md:grid-cols-2 gap-8 mb-8">
-          <div className="bg-white p-6 rounded border border-gray-200">
+          <div className="bg-white p-6 rounded border border-gray-400">
             <h2 className="text-xl font-bold mb-4 text-gray-700">
               {editingId ? '학생 정보 수정' : '새로운 학생 등록'}
             </h2>
@@ -88,7 +88,7 @@ function HomePage() {
             />
           </div>
 
-          <div className="bg-white p-6 rounded border border-gray-200">
+          <div className="bg-white p-6 rounded border border-gray-400">
             <h2 className="text-xl font-bold mb-4 text-gray-700">Search & Filter</h2>
             <SearchBar
               searchTerm={searchTerm}
@@ -104,7 +104,7 @@ function HomePage() {
           </div>
         </div>
 
-        <div className="bg-white p-6 rounded border border-gray-200">
+        <div className="bg-white p-6 rounded border border-gray-400">
           <h2 className="text-xl font-bold mb-4 text-gray-700">전체 학생 목록</h2>
           <StudentList
             students={filteredStudents}

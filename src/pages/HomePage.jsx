@@ -6,22 +6,22 @@ import SearchBar from '../components/SearchBar'
 const dummyStudents = [
   {
     id: 1,
-    name: 'John Smith',
-    email: 'john@sanusi.com',
+    name: '심지섭',
+    email: 'jisub@example.com',
     course: 'Computer Science',
-    level: 'Year 2'
+    level: 'Year 4'
   },
   {
     id: 2,
-    name: 'Sarah Johnson',
-    email: 'sarah@skrrr.com',
+    name: '이서연',
+    email: 'seoyeon@example.com',
     course: 'Business',
     level: 'Year 1'
   },
   {
     id: 3,
-    name: 'Mike Brown',
-    email: 'mike@skrrr.com',
+    name: '박민준',
+    email: 'minjun@example.com',
     course: 'Engineering',
     level: 'Year 3'
   }

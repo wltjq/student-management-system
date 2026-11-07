@@ -109,7 +109,7 @@ function StudentForm({ onSubmit, editingStudent, onCancel }) {
           type="submit"
           className="flex-1 px-4 py-2 bg-blue-500 text-white rounded font-medium hover:bg-blue-600"
         >
-          {editingStudent ? 'Update Student' : 'Add Student'}
+          {editingStudent ? '학생 정보 수정' : '새로운 학생 등록'}
         </button>
         {editingStudent && (
           <button
